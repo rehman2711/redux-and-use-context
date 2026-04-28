@@ -15,7 +15,7 @@ export function ModeToggle() {
 
   return (
     <div className="flex gap-2">
-      <Link href="https://github.com/rehman2711/redux-and-use-context.git">
+      <Link href="https://github.com/rehman2711/redux-and-use-context.git" target="blank">
         <Button variant="outline" size="icon-lg">
           <Github className="" />
         </Button>

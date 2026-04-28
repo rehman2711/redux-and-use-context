@@ -15,7 +15,6 @@ export default function Navbar() {
   return (
     <header className="flex w-full items-center justify-center gap-4 px-4 pt-8">
       <div className="flex w-full max-w-4xl items-center justify-between rounded-lg border bg-muted/30 ps-4">
-        {/* LEFT - LOGO */}
         <div className="flex items-center gap-1 text-lg font-semibold">
           <button
             onClick={() => {
@@ -27,7 +26,6 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* CENTER - NAV LINKS */}
         <nav className="hidden items-center gap-6 text-sm font-medium text-muted-foreground md:flex">
           <Button variant="ghost">SHOP</Button>
 
@@ -36,7 +34,6 @@ export default function Navbar() {
           <Button variant="ghost">STORIES</Button>
         </nav>
 
-        {/* RIGHT - ICONS */}
         <div className="flex items-center gap-2">
           <ButtonGroup className="">
             <Button
