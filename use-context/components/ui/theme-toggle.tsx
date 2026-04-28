@@ -15,11 +15,11 @@ export function ModeToggle() {
 
   return (
     <div className="flex gap-2">
-      <Button variant="outline" size="icon-lg">
-        <Link href="https://github.com/rehman2711/redux-and-use-context.git">
+      <Link href="https://github.com/rehman2711/redux-and-use-context.git">
+        <Button variant="outline" size="icon-lg">
           <Github className="" />
-        </Link>
-      </Button>
+        </Button>
+      </Link>
 
       <Button variant="outline" size="icon-lg" onClick={toggleTheme}>
         <Sun className="h-[1.2rem] w-[1.2rem] transition-all dark:scale-0 dark:rotate-90" />
