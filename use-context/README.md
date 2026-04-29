@@ -1,21 +1,24 @@
-# Next.js template
+# Use Context
 
-This is a Next.js template with shadcn/ui.
+1. What problem does useContext solve ?
 
-## Adding components
+- Prop drilling
+- Avoids deeply passing props
 
-To add components to your app, run the following command:
+---
 
-```bash
-npx shadcn@latest add button
-```
+2. How does useContext work internally ?
 
-This will place the ui components in the `components` directory.
+- Uses React Context API
+- Provider → supplies value
+- Consumer (useContext) → subscribes to value
+- Triggers re-render when value changes
 
-## Using components
+---
 
-To use the components in your app, import them as follows:
+3. When should you NOT use useContext ?
 
-```tsx
-import { Button } from "@/components/ui/button";
-```
+- Complex state handling (if we have to handle like-count, comment-count, post-count, etc.)
+- Frequent updates → causes unnecessary re-renders
+
+---

@@ -1,21 +1,47 @@
-# Next.js template
+# React Redux
 
-This is a Next.js template with shadcn/ui.
+1. What is Redux ?
 
-## Adding components
+- Predictable state container
+- Centralized store
+- Strict unidirectional data flow
 
-To add components to your app, run the following command:
+---
 
-```bash
-npx shadcn@latest add button
+2. Explain Redux data flow .
+
+```text
+Component → dispatch(action) → reducer → new state
+→ store updates → UI re-renders
 ```
 
-This will place the ui components in the `components` directory.
+---
 
-## Using components
+3. What are reducers ?
 
-To use the components in your app, import them as follows:
+- Pure functions
+- No side effects
+- Return new state (immutability)
 
-```tsx
-import { Button } from "@/components/ui/button";
-```
+---
+
+4. Which two hooks are useful in redux ?
+
+- useSelector - to get values from store
+- useDispatcher - to dispatch reducers from store
+
+---
+
+5. What is store
+
+- A centralized container where all state are present
+
+---
+
+6. What are Slices ?
+
+- Slices are types of service
+- Example - CountLikes is Service
+- Example - CountComments is Service
+
+---
