@@ -59,7 +59,7 @@ const Shopping = () => {
   const [customCount, setCustomCount] = useState()
   return (
     <>
-      <div className="flex min-h-[90dvh] items-center justify-center">
+      <div className="flex min-h-[90dvh] items-center justify-center px-6">
         <div className="flex flex-col gap-4 md:flex-row">
           {/* LEFT */}
           <div className="flex flex-1 flex-col justify-around gap-4">
@@ -122,7 +122,7 @@ const Shopping = () => {
           </div>
 
           {/* RIGHT */}
-          <div className="flex flex-1 items-center justify-end bg-red-">
+          <div className="mx-auto my-6 flex flex-1 items-center justify-end">
             <div className="">
               <div className="w-full max-w-[280px] overflow-hidden rounded-2xl border bg-card shadow-sm">
                 <div className="relative aspect-[4/3] w-full bg-muted">
